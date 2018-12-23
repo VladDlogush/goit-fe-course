@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+#topmenu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.link-lifestyle {
+  color: #626262;
+  text-decoration:  none;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.link-lifestyle:hover {
+  color: #00ccff;
+}
+.link-photodiary {
+  color: #626262;
+  text-decoration:  none;
+  margin-left: 60px;
+  margin-right: 50px;
+}
+.link-photodiary:hover {
+  color: #00ccff;
+}
+.link-music {
+  color: #626262;
+  text-decoration:  none;
+  margin-left: 50px;
+  margin-right: 48px;
+}
+.link-music:hover {
+  color: #00ccff;
+}
+.link-travel {
+  color: #626262;
+  text-decoration:  none;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+.link-travel:hover {
+  color: #00ccff;
+}
+.content-top-left {
+  width: 420px;
+  margin-right: 30px;
+  margin-bottom: 65px;
+}
+.content-top-right {
+  width: 420px;
+  margin-left: 30px;
+  margin-bottom: 65px;
+}
+.content-top-center{
+  display: flex;
+  justify-content: center;
+}
+.content-middle-left {
+  width: 420px;
+  margin-right: 30px;
+  margin-bottom: 65px;
+  margin-top: 65px;
+}
+.content-middle-right {
+  width: 420px;
+  margin-left: 30px;
+  margin-bottom: 65px;
+  margin-top: 65px;
+
+}
+.content-middle-center{
+  display: flex;
+  justify-content: center;
+}
+.content-down-left {
+  width: 420px;
+  margin-right: 30px;
+  margin-top: 65px;
+  margin-bottom: 55px;
+}
+.content-down-right {
+  width: 420px;
+  margin-left: 30px;
+  margin-top: 65px;
+}
+.content-down-center{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 55px;
+}
+.down-button {
+  text-align:  center;
+  margin-bottom: 70px;
+}
+.button {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  padding-right: 42px;
+  background-color: transparent;
+  /* border: 1px solid black; */
+  color: #666666;
+}
+.string {
+  margin-top: 32px;
+  margin-bottom: 23px;
+  color: #666666;
+}
+.string-title {
+  margin-bottom: 34px;
+  color: #666666;
+}
+.text {
+  color: #666666;
+}
