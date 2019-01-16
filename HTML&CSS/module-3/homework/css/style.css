@@ -10,7 +10,9 @@
   margin-bottom: 60px;
 }
 .link-lifestyle {
-  color: #626262;
+  font-size: 14px;
+  font-family: "Times New Roman";
+  color: rgb(98, 98, 98);
   text-decoration:  none;
   margin-left: 60px;
   margin-right: 60px;
@@ -19,7 +21,9 @@
   color: #00ccff;
 }
 .link-photodiary {
-  color: #626262;
+  font-size: 14px;
+  font-family: "Times New Roman";
+  color: rgb(98, 98, 98);
   text-decoration:  none;
   margin-left: 60px;
   margin-right: 50px;
@@ -28,7 +32,9 @@
   color: #00ccff;
 }
 .link-music {
-  color: #626262;
+  font-size: 14px;
+  font-family: "Times New Roman";
+  color: rgb(98, 98, 98);
   text-decoration:  none;
   margin-left: 50px;
   margin-right: 48px;
@@ -37,7 +43,9 @@
   color: #00ccff;
 }
 .link-travel {
-  color: #626262;
+  font-size: 14px;
+  font-family: "Times New Roman";
+  color: rgb(98, 98, 98);
   text-decoration:  none;
   margin-left: 48px;
   margin-right: 48px;
@@ -103,17 +111,35 @@
   padding-right: 42px;
   background-color: transparent;
   /* border: 1px solid black; */
-  color: #666666;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
 }
 .string {
   margin-top: 32px;
   margin-bottom: 23px;
-  color: #666666;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(180, 173, 158);
+}
+.string-left-down {
+  margin-top: 32px;
+  margin-bottom: 23px;
+  font-size: 14px;
+  font-family: "Times New Roman";
+  color: rgb(180, 173, 158);
 }
 .string-title {
   margin-bottom: 34px;
-  color: #666666;
+  font-size: 30px;
+  font-family: "Times New Roman";
+  color: rgb(98, 98, 98);
+
 }
 .text {
-  color: #666666;
+  font-size: 14px;
+  font-family: "Times New Roman";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
 }
