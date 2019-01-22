@@ -8,7 +8,8 @@
    justify-content: flex-end;
    margin-top: 36px;
    list-style-type: none;
-   font-family:  Franklin Gothic Demi Cond;
+   font-family: "Times New Roman";
+   color: rgb(26, 188, 156);
  }
 .logo {
   display: flex;
@@ -21,7 +22,7 @@
   text-decoration: none;
   list-style-type: none;
   color: #626262;
-  
+
 
 }
 .link-home:hover {
@@ -77,34 +78,75 @@
 }
 .top-left-img {
   margin-right: 30px;
+  margin-bottom: -4px;
 }
 .top-left-middle{
   margin-right: 30px;
+  margin-bottom: -4px;
 }
 .top-right-middle-img {
   margin-right: 30px;
+  margin-bottom: -4px;
+}
+.top-right-img {
+  margin-bottom: -4px;
 }
 .down-left-img {
   margin-top: 30px;
   margin-right: 30px;
+  margin-bottom: -4px;
 }
 .down-left-middle-img {
   margin-top: 30px;
   margin-right: 30px;
+  margin-bottom: -4px;
 }
 .down-right-middle-img {
   margin-top: 30px;
   margin-right: 30px;
+  margin-bottom: -4px;
 }
 .down-right-img {
   margin-top: 30px;
+  margin-bottom: -4px;
 }
 .name {
   margin-top: 0px;
   height: 30px;
   width: 193px;
   background: #333333;
-  color: white;
+  font-family: "Times New Roman";
+  color: rgb(255, 255, 255);
+  padding-top: 13px;
+  padding-left: 11px;
+}
+.name-left-middle-top {
+  margin-top: 0px;
+  height: 30px;
+  width: 193px;
+  background: #333333;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  padding-top: 13px;
+  padding-left: 11px;
+}
+.name-right-middle-down {
+  margin-top: 0px;
+  height: 30px;
+  width: 193px;
+  background: #333333;
+  font-family: "roboto black";
+  color: rgb(255, 255, 255);
+  padding-top: 13px;
+  padding-left: 11px;
+}
+.name-right-down {
+  margin-top: 0px;
+  height: 30px;
+  width: 193px;
+  background: #333333;
+  font-family: "roboto black";
+  color: rgb(255, 255, 255);
   padding-top: 13px;
   padding-left: 11px;
 }
@@ -112,10 +154,13 @@
   width:  40px;
   height: 30px;
   background: #999999;
-  color: white;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
   padding-top: 13px;
   padding-left: 11px;
 }
+
+
 .product-price {
   display: flex;
 }
@@ -128,16 +173,18 @@
 .string-top {
   text-align: center;
   margin-top: 100px;
-  color: #515151;
-  font-family:  Mongolian Baiti;
-  font-size: 45px;
+  font-size: 48px;
+  font-family: "Times New Roman";
+  color: rgb(81, 81, 81);
 }
 .string-down {
   margin-top: 95px;
   margin-bottom: 23px;
-  font-family:  Mongolian Baiti;
+  font-family: "Times New Roman";
+  color: rgb(85, 82, 82);
   font-size: 45px;
 }
+
 .img-top {
  text-align: center;
  margin-top: 20px;
@@ -150,9 +197,26 @@
   text-align: center;
   color: #515151;
 }
-.string {
-  color: #515151;
-  font-family:  Britannic Bold;
+.string-left {
+  font-size: 18px;
+  font-family: "Times New Roman";
+  color: rgb(85, 82, 82);
+  line-height: 1.857;
+  width: 270px;
+}
+.string-center {
+  font-size: 18px;
+  font-family: "OpenSans";
+  color: rgb(85, 82, 82);
+  line-height: 1.857;
+  width: 270px;
+}
+.string-right {
+  font-size: 18px;
+  font-family: "OpenSans";
+  color: rgb(85, 82, 82);
+  line-height: 1.857;
+  width: 270px;
 }
 .img-down {
  text-align: center;
@@ -196,10 +260,27 @@
   margin-top: 12px;
   margin-bottom: 28px;
 }
-.text {
+.text-left {
   margin-bottom: 16px;
-  color: #515151;
-  font-family:  Arial Rounded MT Bold;
+  font-size: 13px;
+  font-family: "Times New Roman";
+  color: rgb(85, 82, 82);
+  line-height: 1.857;
+  width: 340px;
+}
+.text-center {
+  margin-bottom: 16px;
+  font-size: 13px;
+  font-family: "Times New Roman";
+  color: rgb(85, 82, 82);
+  line-height: 1.857;
+}
+.text-right {
+  margin-bottom: 16px;
+  font-size: 13px;
+    font-family: "OpenSans";
+  color: rgb(85, 82, 82);
+  line-height: 1.857;
 }
 .button {
   width: 160px;
@@ -207,5 +288,8 @@
   margin-bottom: 80px;
   background: #4ec6ab;
   border: none;
-  color: white;
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  border-radius:3px;
 }
