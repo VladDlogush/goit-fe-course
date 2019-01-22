@@ -14,7 +14,7 @@
 .logo {
   display: flex;
   justify-content: flex-start;
-  margin-right: 520px;
+  margin-right: 535px;
 }
 
 .link-home {
@@ -63,7 +63,7 @@
 .link-contact {
  text-decoration: none;
  color: #626262;
- margin-right: 100px;
+ margin-right: 160px;
 }
 .link-contact:hover {
   color: #00ccff;
