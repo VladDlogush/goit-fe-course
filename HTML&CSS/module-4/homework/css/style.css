@@ -5,7 +5,7 @@
    }
  #menu {
    display: flex;
-   justify-content: flex-end;
+   justify-content: center;
    margin-top: 36px;
    list-style-type: none;
    font-family: "Times New Roman";
@@ -14,7 +14,7 @@
 .logo {
   display: flex;
   justify-content: flex-start;
-  margin-right: 535px;
+  margin-right: 520px;
 }
 
 .link-home {
@@ -63,7 +63,7 @@
 .link-contact {
  text-decoration: none;
  color: #626262;
- margin-right: 160px;
+ 
 }
 .link-contact:hover {
   color: #00ccff;
