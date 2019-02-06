@@ -8,7 +8,7 @@
    justify-content: center;
    margin-top: 36px;
    list-style-type: none;
-   font-family: "Times New Roman";
+   font-family: "Roboto";
    color: rgb(26, 188, 156);
  }
 .logo {
@@ -63,7 +63,7 @@
 .link-contact {
  text-decoration: none;
  color: #626262;
- 
+
 }
 .link-contact:hover {
   color: #00ccff;
@@ -110,37 +110,10 @@
   margin-top: 30px;
   margin-bottom: -4px;
 }
+.product-price {
+  display: flex;
+}
 .name {
-  margin-top: 0px;
-  height: 30px;
-  width: 193px;
-  background: #333333;
-  font-family: "Times New Roman";
-  color: rgb(255, 255, 255);
-  padding-top: 13px;
-  padding-left: 11px;
-}
-.name-left-middle-top {
-  margin-top: 0px;
-  height: 30px;
-  width: 193px;
-  background: #333333;
-  font-family: "Roboto";
-  color: rgb(255, 255, 255);
-  padding-top: 13px;
-  padding-left: 11px;
-}
-.name-right-middle-down {
-  margin-top: 0px;
-  height: 30px;
-  width: 193px;
-  background: #333333;
-  font-family: "Roboto";
-  color: rgb(255, 255, 255);
-  padding-top: 13px;
-  padding-left: 11px;
-}
-.name-right-down {
   margin-top: 0px;
   height: 30px;
   width: 193px;
@@ -159,28 +132,24 @@
   padding-top: 13px;
   padding-left: 11px;
 }
+.features-list-item:hover > div .name{
+    background-color:#7fd9c7;
+}
+.features-list-item:hover > div .price{
+    background-color:#1abc9c;
+}
 
-
-.product-price {
-  display: flex;
-}
-.name:hover {
- background: #1abc9c;
-}
-.price:hover {
- background: #7fd9c7;
-}
 .string-top {
   text-align: center;
   margin-top: 100px;
   font-size: 48px;
-  font-family: "Times New Roman";
+  font-family: "Roboto";
   color: rgb(81, 81, 81);
 }
 .string-down {
   margin-top: 95px;
   margin-bottom: 23px;
-  font-family: "Times New Roman";
+  font-family: "Roboto";
   color: rgb(85, 82, 82);
   font-size: 45px;
 }
@@ -292,4 +261,5 @@
   font-family: 'Open Sans', sans-serif;
   color: rgb(255, 255, 255);
   border-radius:3px;
+  cursor: pointer;
 }
