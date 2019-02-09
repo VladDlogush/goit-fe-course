@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Wisdom';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/WisdomScriptAJ.woff'); /* IE9 Compat Modes */
+  src: local('Wisdom'), local('Wisdom'),
+       url('../fonts/WisdomScriptAJ.woff') format('woff'), /* Modern Browsers */
+
+}
