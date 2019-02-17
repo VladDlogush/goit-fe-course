@@ -35,12 +35,13 @@
   color: #222222;
 }
 .about {
-    margin-top: -15.7px;
+  justify-content: center;
+  display: flex;
 }
 .link-about:hover {
   color: #fed136;
   transition-duration: 200ms;
-  padding-bottom:  10px;
+  
 }
 .link-service {
   font-size: 14px;
@@ -261,13 +262,13 @@ input:valid {
 }
 
 input:invalid {
-  background:  #ffcccc;
+  background:  #ff1a1a;
 }
 textarea:valid {
   background:  #b3ffb3;
 }
 textarea:invalid {
-  background:  #ffcccc;
+  background:  #ff1a1a;
 }
 .button {
   display: flex;

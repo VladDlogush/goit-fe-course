@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+
+   }
+ #menu {
+   display: flex;
+   justify-content: center;
+   margin-left: 200px;
+   margin-top: 36px;
+   margin-bottom: 40px;
+   list-style-type: none;
+   position: absolute;
+   font-family: "roboto";
+   color: rgb(26, 188, 156);
+ }
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 600px;
+
+}
+.logo-link {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1.2;
+}
+.link-login {
+ margin-right: 54px;
+ text-decoration: none;
+ font-size: 14px;
+ font-family: "Montserrat";
+ color: rgb(255, 255, 255);
+ font-weight: bold;
+ line-height: 1.2;
+
+}
+.link-login:hover {
+  display: block;
+  border: 3px solid #ffffff;
+  height: 30px;
+  width: 90px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 25px;
+  margin-right: 27.5px;
+  margin-top: -6px;
+  margin-left: -24.5px;
+}
+.sing-up {
+  margin-top: 4px;
+}
+.sing-up:hover {
+
+}
+.link-sing-up {
+
+ text-decoration: none;
+ font-size: 14px;
+ font-family: "Montserrat";
+ color: rgb(255, 255, 255);
+ font-weight: bold;
+ line-height: 1.2;
+
+
+}
+.link-sing-up:hover {
+  display: block;
+  border: 3px solid #ffffff;
+  height: 30px;
+  width: 90px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 25px;
+  margin-top: -10px;
+  margin-left: -18px;
+}
+
+.promo {
+  position: relative;
+  width: 1287px;
+  height: 600px;
+  background: silver;
+  justify-content:   center;
+
+}
+.vector-smart-object-img {
+  height:600px;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+.string-description {
+  text-align: center;
+  font-size: 52px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  position: absolute;
+  margin-bottom: 310px;
+  margin-right: 380px;
+  color: white;
+  bottom: 0;
+  right: 0;
+}
+.string-top {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  margin-bottom: 270px;
+  margin-right:  440px;
+  color: white;
+  bottom: 0;
+  right: 0;
+}
+
+.top-button {
+  cursor: pointer;
+  background: #ff4e50;
+  border: none;
+  height: 40px;
+  width: 225px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-bottom: 192px;
+  margin-right: 525px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+.content-top-center{
+  display: flex;
+  justify-content: center;
+
+}
+.picture-wrapper {
+  position: relative;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+.top-left-img {
+  margin-right: 30px;
+  margin-bottom: -4px;
+}
+.top-left-middle{
+  margin-right: 30px;
+  margin-bottom: -4px;
+}
+.top-right-middle-img {
+  margin-right: 30px;
+  margin-bottom: -4px;
+}
+.top-right-img {
+  margin-bottom: -4px;
+}
+
+.top-left-img{
+    position:relative;
+}
+.top-left-img:hover .blocks {
+    display:block;
+    background-color:rgba(50, 50, 50, 0.7);
+}
+.top-left-middle{
+    position:relative;
+}
+.blocks{
+    position:absolute;
+    left:5px;
+    bottom:0;
+    right:0;
+    top:10px;
+    height: 290px;
+    width: 234px;
+
+    padding:5px;
+    display:none;
+}
+.top-left-middle:hover .blocks{
+    display:block;
+    background-color:rgba(50, 50, 50, 0.7);
+}
+.top-right-middle-img {
+    position:relative;
+}
+.top-right-middle-img:hover .blocks {
+    display:block;
+    background-color:rgba(50, 50, 50, 0.7);
+}
+.top-right-img {
+    position:relative;
+}
+.top-right-img:hover .blocks{
+    display:block;
+    background-color:rgba(50, 50, 50, 0.7);
+}
+.dispaly {
+  margin-top: 60px;
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.like {
+  position: relative;
+  border: 1px solid white;
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  opacity: 1;
+}
+.like:hover {
+  background: #1abc9c;
+  border: 1px solid #1abc9c;
+  opacity: 1;
+}
+.arrow {
+  position: relative;
+  border: 1px solid white;
+  margin-top: 30px;
+  margin-left:20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.arrow:hover {
+  background: #1abc9c;
+  border: 1px solid #1abc9c;
+}
+.time {
+  border: 1px solid white;
+  margin-top: 30px;
+  margin-left: 21px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.time:hover {
+  background: #1abc9c;
+  border: 1px solid #1abc9c;
+}
+.basket {
+  font-family: 'Roboto', sans-serif;
+  width: 30px;
+  height: 30px;
+  padding-bottom: 15px;
+}
+
+
+
+.icon-wrapper {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  margin: 20px;
+  background: transparent;
+  cursor: pointer;
+}
+.icons-wrapper--wide {
+  width: 145px;
+  padding-left: 50px;
+}
+.icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+}
+.icon-wrapper:hover {
+  background: lightgreen;
+  border-color: transparent;
+}
+.icons-wrapper--wide:hover {
+  background: #323232;
+}
+.text-icon {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.name {
+  margin-top: 0px;
+  height: 30px;
+  width: 193px;
+  background: #333333;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  padding-top: 13px;
+  padding-left: 11px;
+}
+.price {
+  width:  40px;
+  height: 30px;
+  background: #999999;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  padding-top: 13px;
+  padding-left: 11px;
+}
+.product-price {
+  display: flex;
+}
+.features-list-item:hover > div .name{
+    background-color:#7fd9c7;
+}
+.features-list-item:hover > div .price{
+    background-color:#1abc9c;
+}
+
+.string-down{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+}
+
+.text {
+  font-size: 16px;
+  font-family: "Roboto";
+  width: 1287px;
+  height: 60px;
+  background-color: rgb(50, 50, 50);
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+
+}
+.color {
+  color: white;
+  text-decoration: none;
+}
+.color:hover {
+  color: #1abc9c;
+
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
