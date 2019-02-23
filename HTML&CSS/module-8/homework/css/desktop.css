@@ -1,0 +1,57 @@
+@media (min-width:1200px) {
+  .logo,.menu{
+        margin: 0;
+        margin-left: 245px;
+        margin-right: 200px;
+    }
+  .title {
+    font-size: 52px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  .subtitle {
+    font-size: 24px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-bottom: 40px;
+  }
+  .login {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: capitalize;
+  }
+  .login:first-letter{
+    text-transform: lowercase;
+  }
+  .sign-up {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: capitalize;
+  }
+  .sign-up:first-letter{
+    text-transform: lowercase;
+  }
+  .background {
+    margin: 0px;
+  }
+  .promo{
+      min-width: 1280px;
+  }
+  .content-top-center{
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+  }
+  .top-button {
+    width: 240px;
+  }
+}
