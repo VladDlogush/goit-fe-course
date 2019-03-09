@@ -138,14 +138,14 @@
   justify-content: center;
       margin-bottom: 70px;
 }
-.photo,
-.icon {
-  display: block;
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  border-radius: 50%;
-}
+  .photo,
+  .icon {
+    display: block;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
 .TV-icon {
   margin-right: 40px;
   position: absolute;
@@ -207,7 +207,7 @@
   width: 20px;
   height: 20px;
   margin-top: -3px;
-    margin-left: -3px;
+  margin-left: -3px;
 }
 .name {
   margin-bottom: 20px;
