@@ -1,0 +1,18 @@
+@media (min-width:320px) and (max-width:767px) {
+    .container{
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .logo {
+      margin-top: 150px;
+      margin-left: 35px;
+      font-size: 26px;
+    }
+    .title {
+      width: 300px;
+      margin-top: 28px;
+    }
+    .cards {
+      margin-right: 0px;
+    }
+}
