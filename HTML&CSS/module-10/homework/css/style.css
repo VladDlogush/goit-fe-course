@@ -1,6 +1,10 @@
 body {
   margin: 0px;
 }
+.wrapp {
+    width: 1287px;
+    margin: 0 auto;
+}
 .promo{
     display: flex;
     padding-top: 50px;
@@ -384,6 +388,7 @@ body {
   text-align: center;
   margin-bottom: 80px;
   margin-left: 172px;
+  /* margin: 0 auto; */
 }
 .post-center{
   display: flex;
@@ -628,11 +633,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1194px;
   padding-top: 40px;
   padding-bottom: 20px;
   color: black;
   margin-left: 43px;
+  margin-right: 43px;
   margin-top: 80px;
   border-top: 1px solid rgb(153, 153, 153);
 }
@@ -644,9 +649,10 @@ body {
   font-family: "Roboto";
   color: rgb(204, 204, 204);
   font-style: italic;
+  border: 1px solid rgb(153, 153, 153); 
 }
 .form {
-  margin-left: 490px;
+
   margin-top: -10px;
 }
 .button {
@@ -660,3 +666,59 @@ body {
   color: rgb(255, 255, 255);
   cursor: pointer;
 }
+
+
+
+ /* footer{
+     border-top: 1px solid rgb(229, 229, 229);
+     display:flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+.footer__author-link{
+    text-decoration: none;
+    color:rgb(243,129,129);
+}
+
+.footer__copyright-text{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    line-height:62px;
+}
+
+.footer__form{
+    width:380px;
+    height:40px;
+    display: inline-block;
+    font-size:0;
+    padding-top:12px;
+
+}
+
+.footer__email{
+    width:230px;
+    height:40px;
+    font-size:15px;
+    line-height: 24px;
+    padding:8px 0 8px 12px;
+    border: 1px solid rgb(229, 229, 229);
+    color:rgb(229, 229, 229);
+    font-family: 'Roboto', sans-serif;
+    font-style:italic;
+    font-weight: 300;
+}
+
+.footer__subscribe-button {
+    width:150px;
+    height:40px;
+    font-size:14px;
+    font-weight: 700;
+    padding:8px 0 8px 0px;
+    text-transform: uppercase;
+    background-color: rgb(149,225,211);
+    color:#ffffff;
+    border:0;
+}
+
+.footer__subscribe-button:hover {cursor: pointer;} */
