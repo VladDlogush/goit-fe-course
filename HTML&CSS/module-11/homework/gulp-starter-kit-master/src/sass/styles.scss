@@ -1,0 +1,16 @@
+/*
+   Import partials below
+*/
+@import './helpers/variables.scss';
+@import './helpers/mixins.scss';
+@import './normalize';
+@import './base';
+
+//Components
+@import './components/menu.scss';
+@import './components/banner.scss';
+@import './components/section.scss';
+@import './components/team.scss';
+@import './components/icon-team.scss';
+@import './components/footer.scss';
+@import './components/media.scss';

@@ -1,0 +1,90 @@
+.promo{
+    display: flex;
+    padding-top: 50px;
+    margin-bottom: 150px;
+    font-family: $montserrat-font-stack;
+    min-width: 1279px;
+}
+.background{
+        background-image: url(.././images/vector-smart-object.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: auto;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    margin-bottom: 65px;
+    list-style-type: none;
+    font-family: $open-font-stack;
+    color: $color-birch;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 540px;
+}
+.link-logo {
+   text-decoration: none;
+   list-style-type: none;
+   font-size: 30px;
+   font-family: $montserrat-font-stack;
+   font-weight: bold;
+   color: $color-white;
+   margin-top: -15px;
+}
+.link-about {
+   font-size: 14px;
+   font-family: $montserrat-font-stack;
+   margin-right: 40px;
+   text-decoration: none;
+
+   color: $color-white;
+}
+
+
+.link-service {
+   font-size: 14px;
+   font-family: $montserrat-font-stack;
+   margin-right: 40px;
+   text-decoration: none;
+   color: $color-white;
+}
+
+.link-work {
+   font-size: 14px;
+   font-family: $montserrat-font-stack;
+   margin-right: 40px;
+   text-decoration: none;
+   color: $color-white;
+}
+
+.link-blog {
+   font-size: 14px;
+   font-family: $montserrat-font-stack;
+   margin-right: 40px;
+   text-decoration: none;
+   color: $color-white;
+}
+
+.link-contact {
+   font-size: 14px;
+   font-family: $montserrat-font-stack;
+   margin-right: 40px;
+   text-decoration: none;
+   color: $color-white;
+}
+
+.icon-basket {
+  width: 20px;
+  height: 20px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.icon-search {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,127 @@
+
+
+// MENU
+
+.link-about {
+  &:hover {
+     color: $color-light-orange;
+     transition-duration: 200ms;
+     border-bottom: 3px solid $color-light-orange;
+     padding-bottom:  10px;
+  }
+}
+.link-service {
+  &:hover {
+     color: $color-light-orange;
+     transition-duration: 200ms;
+     border-bottom: 3px solid $color-light-orange;
+     padding-bottom:  10px;
+  }
+}
+.link-work{
+  &:hover {
+     color: $color-light-orange;
+     transition-duration: 200ms;
+     border-bottom: 3px solid $color-light-orange;
+     padding-bottom:  10px;
+  }
+}
+.link-blog{
+  &:hover {
+     color: $color-light-orange;
+     transition-duration: 200ms;
+     border-bottom: 3px solid $color-light-orange;
+     padding-bottom:  10px;
+  }
+}
+.link-contact{
+  &:hover {
+     color: $color-light-orange;
+     transition-duration: 200ms;
+     border-bottom: 3px solid $color-light-orange;
+     padding-bottom:  10px;
+  }
+}
+
+//Banner
+
+.login {
+  &:first-letter{
+    text-transform: lowercase;
+  }
+}
+
+.sign-up {
+  &:first-letter{
+    text-transform: lowercase;
+  }
+}
+
+//Team
+
+.top-left-img{
+  &:hover .block{
+    display:block;
+    transition-duration: 200ms;
+  }
+}
+.top-left-img{
+  &:hover {
+      z-index: 2;
+      transition-duration: 200ms;
+  }
+}
+
+.top-right-img{
+  &:hover .block{
+    display:block;
+    transition-duration: 200ms;
+  }
+}
+.top-middle-img{
+  &:hover .block{
+    display:block;
+    transition-duration: 200ms;
+
+  }
+}
+
+//Icon-team
+
+.facebook{
+  &:hover {
+    background: $color-birch-2;
+    border: 1px solid $color-birch-2;
+    transition-duration: 200ms;
+  }
+}
+.twitter{
+  &:hover {
+    background: $color-birch-2;
+    border: 1px solid $color-birch-2;
+    transition-duration: 200ms;
+  }
+}
+.pinterest{
+  &:hover {
+    background: $color-birch-2;
+    border: 1px solid $color-birch-2;
+    transition-duration: 200ms;
+  }
+}
+.instagram{
+  &:hover {
+    background: $color-birch-2;
+    border: 1px solid $color-birch-2;
+    transition-duration: 200ms;
+  }
+}
+
+//Footer
+
+.color{
+  &:hover {
+    color: $color-light-red;
+     transition-duration: 200ms;
+  }
+}

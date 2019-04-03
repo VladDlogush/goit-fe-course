@@ -1,0 +1,50 @@
+
+.text {
+  font-size: 14px;
+  font-family: $montserrat-font-stack;
+    color: $color-dark-silver;
+    font-weight: bold;
+}
+.color {
+  color: $color-dark-silver;
+  text-decoration: none;
+}
+
+.left-position {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: $color-black;
+  margin-left: 43px;
+  margin-right: 43px;
+  margin-top: 80px;
+  border-top: 1px solid $color-silver;
+}
+.input {
+  width: 230px;
+  height: 40px;
+  padding-left: 12px;
+  font-size: 15px;
+  font-family: $Roboto-font-stack;
+  color: $color-silver-2;
+  font-style: italic;
+  border: 1px solid $color-silver;
+}
+.form {
+  margin-left: 490px;
+  margin-top: -10px;
+}
+.button {
+  background: $color-birch-2;
+  font-weight: 600;
+  border: 0;
+  width: 150px;
+  height: 46px;
+  margin-left: -4px;
+  font-size: 14px;
+  font-family: $montserrat-font-stack;
+  color: $color-white;
+  cursor: pointer;
+}
