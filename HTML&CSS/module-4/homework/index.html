@@ -7,117 +7,138 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,900" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <ul id="menu">
-        <li class="logo"><a href="#"><img  src="./img/logo.png"  alt=""></li>
-        <li><a class="link-home" href="#">HOME</a></li>
-        <li><a class="link-about" href="#">ABOUT US</a></li>
-        <li><a class="link-page" href="#">PAGE</a></li>
-        <li><a class="link-shop" href="#">SHOP</a></li>
-        <li><a class="link-blog" href="#">BLOG</a></li>
-        <li><a class="link-contact" href="#">CONTACT US</a></li>
-      </ul>
+    <header class="page-header clearfix">
+      <a href="#"><img  src="./img/logo.png" class="logo" alt="">
+      <nav class="navigation">
+        <ul class="menu">
+          <li class="link"><a class="link-home" href="#">HOME</a></li>
+          <li class="link"><a class="link-about" href="#">ABOUT US</a></li>
+          <li class="link"><a class="link-page" href="#">PAGE</a></li>
+          <li class="link"><a class="link-shop" href="#">SHOP</a></li>
+          <li class="link"><a class="link-blog" href="#">BLOG</a></li>
+          <li class="link"><a class="link-contact" href="#">CONTACT US</a></li>
+        </ul>
+      </nav>
     </header>
-    <section>
-      <div class="section-title">
-        <p class="string-top">FEATURED PRODUCTS</p>
-        <p class="img-top"><img  src="./img/rectangle.png" alt=""></p>
-      </div>
-      <div class="content-top-center">
-        <article class="features-list-item">
-          <img  class="top-left-img" src="./img/top-left-img.png" alt="">
-          <div class="product-price">
-             <p class="name">BLUE TSHIRT</p>
-             <p class="price">$26</p>
-          </div>
-        </article>
-        <article class="features-list-item">
-          <img class="top-left-middle" src="./img/top-left-middle-img.png" alt="">
-          <div class="product-price">
-             <p class="name">WOMAN SHIRT</p>
-             <p class="price">$31</p>
-          </div>
-        </article>
-        <article class="features-list-item">
-          <img class="top-right-middle-img" src="./img/top-right-middle-img.png" alt="">
-          <div class="product-price">
-             <p class="name">YELLOW TSHIRT</p>
-             <p class="price">$21</p>
-          </div>
-        </article>
-        <article class="features-list-item">
-          <img class="top-right-img" src="./img/top-right-img.png" alt="">
-          <div class="product-price">
-             <p class="name">COOL LINGERIE</p>
-             <p class="price">$56</p>
-          </div>
-        </article>
-      </div>
-      <div class="content-down-center">
-        <article class="features-list-item">
-          <img class="down-left-img" src="./img/down-left-img.png" alt="">
-          <div class="product-price">
-             <p class="name">BLUE TSHIRT</p>
-             <p class="price">$26</p>
-          </div>
-        </article>
-        <article class="features-list-item">
-          <img class="down-left-middle-img" src="./img/down-left-middle-img.png" alt="">
-          <div class="product-price">
-             <p class="name">WOMAN SHIRT</p>
-             <p class="price">$31</p>
-          </div>
-        </article>
-        <article class="features-list-item">
-          <img class="down-right-middle-img" src="./img/down-right-middle-img.png" alt="">
-          <div class="product-price">
-             <p class="name">YELLOW TSHIRT</p>
-             <p class="price">$21</p>
-          </div>
-        </article>
-        <article class="features-list-item">
-          <img class="down-right-img"src="./img/down-right-img.png" alt="">
-          <div class="product-price">
-             <p class="name">COOL LINGERIE</p>
-             <p class="price">$56</p>
-          </div>
-        </article>
-      </div>
-    </section>
-    <footer>
-      <div class="section-title">
-        <p class="string-down">LATEST NEWS</p>
-        <p class="img-down"><img  src="./img/rectangle.png" alt=""></p>
-      </div>
-      <article class="">
-        <div class="post-center">
-          <!-- post-center -->
-          <article class="post-left">
-            <img class="left-post-img" src="./img/left-post.png" alt="">
-            <p class="string-left">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean </p>
-            <img class="rectangle-small-left" src="./img/rectangle-small.png" alt="">
-            <p class="text-left">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate
-              cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare  </p>
-            <button class="button" type="button" name="button">Read More</button>
-          </article>
-          <article class=" post-middle">
-            <img class="middle-post-img" src="./img/middle-post.png" alt="">
-            <p class="string-center">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean </p>
-            <img class="rectangle-small-middle" src="./img/rectangle-small.png" alt="">
-            <p class="text-center">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate
-              cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare  </p>
-            <button class="button" type="button" name="button">Read More</button>
-          </article>
-          <article class="post-right">
-            <img class="right-post-img" src="./img/right-post.png" alt="">
-            <p class="string-right">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean </p>
-            <img class="rectangle-small-right" src="./img/rectangle-small.png" alt="">
-            <p class="text-right">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate
-              cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
-            <button class="button" type="button" name="button">Read More</button>
-          </article>
+    <main>
+      <section class="wrapp">
+        <div class="section-title">
+          <h2 class="string-top">FEATURED PRODUCTS</h2>
+          <p class="img-top"><img  src="./img/rectangle.png" alt=""></p>
         </div>
-      </article>
-    </footer>
+        <ul class="content-top-center">
+          <li class="block">
+            <article class="features-list-item">
+              <img  class="top-left-img" src="./img/top-left-img.png" alt="">
+              <div class="product-price">
+                 <p class="name">BLUE TSHIRT</p>
+                 <p class="price">$26</p>
+              </div>
+            </article>
+          </li>
+          <li class="block">
+            <article class="features-list-item">
+              <img class="top-left-middle" src="./img/top-left-middle-img.png" alt="">
+              <div class="product-price">
+                 <p class="name">WOMAN SHIRT</p>
+                 <p class="price">$31</p>
+              </div>
+            </article>
+          </li>
+          <li class="block">
+            <article class="features-list-item">
+              <img class="top-right-middle-img" src="./img/top-right-middle-img.png" alt="">
+              <div class="product-price">
+                 <p class="name">YELLOW TSHIRT</p>
+                 <p class="price">$21</p>
+              </div>
+            </article>
+          </li>
+          <li class="block">
+            <article class="features-list-item">
+              <img class="top-right-img" src="./img/top-right-img.png" alt="">
+              <div class="product-price">
+                 <p class="name">COOL LINGERIE</p>
+                 <p class="price">$56</p>
+              </div>
+            </article>
+          </li>
+          <li class="block">
+            <article class="features-list-item">
+              <img class="down-left-img" src="./img/down-left-img.png" alt="">
+              <div class="product-price">
+                 <p class="name">BLUE TSHIRT</p>
+                 <p class="price">$26</p>
+              </div>
+            </article>
+          </li>
+          <li class="block">
+            <article class="features-list-item">
+              <img class="down-left-middle-img" src="./img/down-left-middle-img.png" alt="">
+              <div class="product-price">
+                 <p class="name">WOMAN SHIRT</p>
+                 <p class="price">$31</p>
+              </div>
+            </article>
+          </li>
+          <li class="block">
+            <article class="features-list-item">
+              <img class="down-right-middle-img" src="./img/down-right-middle-img.png" alt="">
+              <div class="product-price">
+                 <p class="name">YELLOW TSHIRT</p>
+                 <p class="price">$21</p>
+              </div>
+            </article>
+          </li>
+          <li class="block">
+            <article class="features-list-item">
+              <img class="down-right-img"src="./img/down-right-img.png" alt="">
+              <div class="product-price">
+                 <p class="name">COOL LINGERIE</p>
+                 <p class="price">$56</p>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section class="news">
+        <div class="section-title">
+          <h2 class="string-down">LATEST NEWS</h2>
+          <p class="img-down"><img  src="./img/rectangle.png" alt=""></p>
+        </div>
+        <ul class="post-center">
+          <li class="post">
+            <article class="post-left">
+              <img class="left-post-img" src="./img/left-post.png" alt="">
+              <p class="string-left">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean </p>
+              <img class="rectangle-small-left" src="./img/rectangle-small.png" alt="">
+              <p class="text-left">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate
+                cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare  </p>
+              <a class="button" href="#" type="button" name="button">Read More</a>
+            </article>
+          </li>
+          <li class="post">
+            <article class=" post-middle">
+              <img class="middle-post-img" src="./img/middle-post.png" alt="">
+              <p class="string-center">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean </p>
+              <img class="rectangle-small-middle" src="./img/rectangle-small.png" alt="">
+              <p class="text-center">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate
+                cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare  </p>
+              <a class="button" href="#" type="button" name="button">Read More</a>
+            </article>
+          </li>
+          <li class="post">
+            <article class="post-right">
+              <img class="right-post-img" src="./img/right-post.png" alt="">
+              <p class="string-right">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean </p>
+              <img class="rectangle-small-right" src="./img/rectangle-small.png" alt="">
+              <p class="text-right">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate
+                cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
+              <a class="button" href="#"  name="button">Read More</a>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
