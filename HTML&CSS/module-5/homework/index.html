@@ -10,27 +10,37 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <ul id="menu">
-        <li class="logo"><a href="#"><img  src="./img/logo.png"  alt=""></li>
-        <li><a class="link-home" href="#">HOME</a></li>
-        <li><a class="link-about" href="#">ABOUT US</a></li>
-        <li><a class="link-page" href="#">PAGE</a></li>
-        <li><a class="link-shop" href="#">SHOP</a></li>
-        <li><a class="link-blog" href="#">BLOG</a></li>
-        <li><a class="link-contact" href="#">CONTACT US</a></li>
-      </ul>
+    <header class="page-header clearfix">
+      <a href="#"><img  src="./img/logo.png" class="logo" alt="">
+      <nav class="navigation">
+        <ul class="menu">
+          <li class="link"><a class="link-home" href="#">HOME</a></li>
+          <li class="link"><a class="link-about" href="#">ABOUT US</a></li>
+          <li class="link"><a class="link-page" href="#">PAGE</a></li>
+          <li class="link"><a class="link-shop" href="#">SHOP</a></li>
+          <li class="link"><a class="link-blog" href="#">BLOG</a></li>
+          <li class="link"><a class="link-contact" href="#">CONTACT US</a></li>
+        </ul>
+      </nav>
     </header>
-    <section>
+    <section class="wrapp">
       <article class="content">
         <div class="slider">
-          <img class="slider-prev" src="./img/prev.svg" alt="">
-          <img class="slider-next" src="./img/next.svg" alt="">
+          <button class="slider-prev" type="button" name="button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -40 210 210"><path d="M40.4 121.3c-.8.8-1.8 1.2-2.9 1.2s-2.1-.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8 0l53.9 53.9c1.6 1.6 1.6 4.2 0 5.8l-53.9 53.9z"/></svg>
+          </button>
+          <button class="slider-next" type="button" name="button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -40 210 210"><path d="M40.4 121.3c-.8.8-1.8 1.2-2.9 1.2s-2.1-.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8 0l53.9 53.9c1.6 1.6 1.6 4.2 0 5.8l-53.9 53.9z"/></svg>
+          </button>
+          <!-- <img  src="./img/prev.svg" alt="">
+          <img  src="./img/next.svg" alt=""> -->
           <ul >
             <li class="slides-item">
               <img class="slides-img"src="./img/slide1.png" alt="">
-              <p class="slides-description">AFFORDABLE PARIS TOURS</p>
-              <p class="slides-tour">CITY TOURS / TOUR TICKETS / TOUR GUIDES</p>
+              <div class="position">
+                <p class="slides-description">AFFORDABLE PARIS TOURS</p>
+                <p class="slides-tour">CITY TOURS / TOUR TICKETS / TOUR GUIDES</p>
+              </div>
             </li>
             <!-- <li>
               <img src="./img/slide2.png" alt="">
@@ -41,112 +51,145 @@
           </ul>
         </div>
       </article>
-      <article class="background">
-        <div class="section-title">
-          <p class="string">NEW COLLECTION</p>
-          <p class="img-top"><img  src="./img/rectangle.png" alt=""></p>
-        </div>
-        <div class="content-top-center">
-          <article class="features-list-item">
-            <div class="top-left-img">
-              <img   src="./img/left-img.png" alt="">
-              <div class="blocks">
-                <div class="dispaly">
-                  <img class="like" src="./img/like.svg" alt="">
-                  <img class="arrow" src="./img/arrow.svg" alt="">
-                  <img class="time" src="./img/time.svg" alt="">
-                </div>
-                <div class="icon-wrapper icons-wrapper--wide">
-                  <div class="icon">
-                    <img class="basket" src="./img/basket.svg" alt="">
-                  </div>
-                  <p class="text-icon">ADD TO CART</p>
-                </div>
-              </div>
-            </div>
-            <div class="product-price">
-               <p class="name">BLUE TSHIRT</p>
-               <p class="price">$26</p>
-            </div>
-          </article>
-          <article class="features-list-item">
-            <div class="top-left-middle">
-              <img   src="./img/left-middle-img.png" alt="">
-              <div class="blocks">
-                <div class="dispaly">
-                  <img class="like" src="./img/like.svg" alt="">
-                  <img class="arrow" src="./img/arrow.svg" alt="">
-                  <img class="time" src="./img/time.svg" alt="">
-                </div>
-                <div class="icon-wrapper icons-wrapper--wide">
-                  <div class="icon">
-                    <img class="basket" src="./img/basket.svg" alt="">
-                  </div>
-                  <p class="text-icon">ADD TO CART</p>
-                </div>
-              </div>
-            </div>
-              <div class="product-price">
-                 <p class="name">WOMAN SHIRT</p>
-                 <p class="price">$31</p>
-              </div>
-            </article>
-            <article class="features-list-item">
-              <div class="top-right-middle-img">
-                <img   src="./img/right-middle-img.png" alt="">
-                <div class="blocks">
-                  <div class="dispaly">
-                    <img class="like" src="./img/like.svg" alt="">
-                    <img class="arrow" src="./img/arrow.svg" alt="">
-                    <img class="time" src="./img/time.svg" alt="">
-                  </div>
-                  <div class="icon-wrapper icons-wrapper--wide">
-                    <div class="icon">
-                      <img class="basket" src="./img/basket.svg" alt="">
+      <main>
+        <section class="background">
+          <div class="container">
+            <h2 class="string">NEW COLLECTION</h2>
+            <ul class="block">
+              <li class="position-photo">
+                <article class="features-list-item">
+                    <img   src="./img/left-img.png" alt="">
+                    <div class="blocks">
+                      <div class="dispaly ">
+                        <ul class="icons">
+                          <li>
+                            <img class="like" src="./img/like.svg" alt="">
+                          </li>
+                          <li>
+                            <img class="arrow" src="./img/arrow.svg" alt="">
+                          </li>
+                          <li>
+                            <img class="time" src="./img/time.svg" alt="">
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="icon-wrapper icons-wrapper--wide">
+                        <div class="icon">
+                          <img class="basket" src="./img/basket.svg" alt="">
+                        </div>
+                        <p class="text-icon">ADD TO CART</p>
+                      </div>
                     </div>
-                    <p class="text-icon">ADD TO CART</p>
+                  <div class="product-price">
+                     <p class="name">BLUE TSHIRT</p>
+                     <p class="price">$26</p>
                   </div>
-                </div>
-              </div>
-              <div class="product-price">
-                 <p class="name">YELLOW TSHIRT</p>
-                 <p class="price">$21</p>
-              </div>
-            </article>
-            <article class="features-list-item">
-              <div class="top-right-img">
-                <img   src="./img/right-img.png" alt="">
-                <div class="blocks">
-                  <div class="dispaly">
-                    <img class="like" src="./img/like.svg" alt="">
-                    <img class="arrow" src="./img/arrow.svg" alt="">
-                    <img class="time" src="./img/time.svg" alt="">
-                  </div>
-                  <div class="icon-wrapper icons-wrapper--wide">
-                    <div class="icon">
-                      <img class="basket" src="./img/basket.svg" alt="">
+                </article>
+              </li>
+              <li class="position-photo">
+                <article class="features-list-item">
+                    <img   src="./img/left-middle-img.png" alt="">
+                    <div class="blocks">
+                      <div class="dispaly">
+                        <ul class="icons">
+                          <li>
+                            <img class="like" src="./img/like.svg" alt="">
+                          </li>
+                          <li>
+                            <img class="arrow" src="./img/arrow.svg" alt="">
+                          </li>
+                          <li>
+                            <img class="time" src="./img/time.svg" alt="">
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="icon-wrapper icons-wrapper--wide">
+                        <div class="icon">
+                          <img class="basket" src="./img/basket.svg" alt="">
+                        </div>
+                        <p class="text-icon">ADD TO CART</p>
+                      </div>
                     </div>
-                    <p class="text-icon">ADD TO CART</p>
+                    <div class="product-price">
+                       <p class="name">WOMAN SHIRT</p>
+                       <p class="price">$31</p>
+                    </div>
+                  </article>
+              </li>
+              <li class="position-photo">
+                <article class="features-list-item">
+                    <img   src="./img/right-middle-img.png" alt="">
+                    <div class="blocks">
+                      <div class="dispaly">
+                        <ul class="icons">
+                          <li>
+                            <img class="like" src="./img/like.svg" alt="">
+                          </li>
+                          <li>
+                            <img class="arrow" src="./img/arrow.svg" alt="">
+                          </li>
+                          <li>
+                            <img class="time" src="./img/time.svg" alt="">
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="icon-wrapper icons-wrapper--wide">
+                        <div class="icon">
+                          <img class="basket" src="./img/basket.svg" alt="">
+                        </div>
+                        <p class="text-icon">ADD TO CART</p>
+                      </div>
+                    </div>
+                  <div class="product-price">
+                     <p class="name">YELLOW TSHIRT</p>
+                     <p class="price">$21</p>
                   </div>
-                </div>
-              </div>
-              <div class="product-price">
-                 <p class="name">COOL LINGERIE</p>
-                 <p class="price">$56</p>
-              </div>
-            </article>
+                </article>
+              </li>
+              <li class="position-photo">
+                <article class="features-list-item">
+                    <img   src="./img/right-img.png" alt="">
+                    <div class="blocks">
+                      <div class="dispaly">
+                        <ul class="icons">
+                          <li>
+                            <img class="like" src="./img/like.svg" alt="">
+                          </li>
+                          <li>
+                            <img class="arrow" src="./img/arrow.svg" alt="">
+                          </li>
+                          <li>
+                            <img class="time" src="./img/time.svg" alt="">
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="icon-wrapper icons-wrapper--wide">
+                        <div class="icon">
+                          <img class="basket" src="./img/basket.svg" alt="">
+                        </div>
+                        <p class="text-icon">ADD TO CART</p>
+                      </div>
+                    </div>
+                  <div class="product-price">
+                     <p class="name">COOL LINGERIE</p>
+                     <p class="price">$56</p>
+                  </div>
+                </article>
+              </li>
+            </ul>
           </div>
-      </article>
-
+        </section>
+      </main>
     </section>
     <footer >
-
+      <div class="container">
+        <p class="text">© 2016 MoGo free PSD template by <a href="#" class="color">Laaqiq</a></p>
+      </div>
         <article class="">
           <div class="center">
-            <p class="text">© 2016 MoGo free PSD template by <a href="#" class="color">Laaqiq</a></p>
+
           </div>
         </article>
-
     </footer>
   </body>
 </html>

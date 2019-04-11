@@ -60,6 +60,9 @@
       width: 490px;
       margin: 0 auto;
    }
+   .block {
+     float: left;
+   }
    .top-button {
      width: 240px;
    }

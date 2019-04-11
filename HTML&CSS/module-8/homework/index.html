@@ -7,78 +7,81 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
   </head>
   <body>
-    <header>
-      <article class="content">
+    <div>
+      <nav class="content">
         <div class="background">
-          <div class="promo">
-            <a href="#" class="logo">URLAUBSGLÜCK</a>
-            <ul class="menu">
-              <li><a href="#" class="login">Log in</a></li>
-              <li><a href="#" class="sign-up">Sign up</a></li>
-            </ul>
-          </div>
-          <div class="item">
-            <h2 class="title">Share your</br> holiday dreams </h2>
-            <p class="subtitle">And find the perfect partner to fullfill it</p>
-            <button class="top-button">Find your holiday partner</button>
-          </div>
+          <header class="container">
+            <div class="promo">
+              <a href="#" class="logo">URLAUBSGLÜCK</a>
+              <ul class="menu">
+                <li><a href="#" class="login">Log in</a></li>
+                <li><a href="#" class="sign-up">Sign up</a></li>
+              </ul>
+            </div>
+          </header>
+          <section class="container">
+            <div class="item">
+              <h2 class="title">Share your</br> holiday dreams </h2>
+              <p class="subtitle">And find the perfect partner to fullfill it</p>
+              <a href="#" class="top-button">
+                <p class="padding"> Find your holiday partner</p>
+              </a>
+            </div>
+          </section>
         </div>
-      </article>
-    </header>
-    <section>
-      <article class="">
+      </nav>
+    </div>
+    <main>
+      <section class="section">
         <div class="section-title">
           <p class="string-down">Meet a partner for your best holiday</p>
         </div>
         <div class="content-top-center">
-          <article class="cards">
-            <div class="picture-wrapper">
-              <img src="./img/left-img.png" alt="" class="photo">
-              <div class="TV-icon">
-                <img class="icon-wrapper" src="./img/television.svg" alt="" class="icon">
-              </div>
-            </div>
-            <p class="name">Bradley Hunter</p>
-            <p class="description">Based in Chicago. I love playing tennis and loud music.</p>
-          </article>
-          <article class="cards">
-            <div class="picture-wrapper">
-              <img src="./img/left-middle-img.png" alt="" class="photo">
-              <div class="coffee-icon">
-                <img class="icon-wrapper" src="./img/coffee.svg" alt="" class="icon" >
-              </div>
-            </div>
-            <p class="name">Heather Walker</p>
-            <p class="description">I'm a happy person that loves cats and climbing on mountains.</p>
-          </article>
-          <article class="cards">
-            <div class="picture-wrapper">
-              <img src="./img/right-middle-img.png" alt="" class="photo">
-              <div class="test-tube-icon">
-                <img class="icon-wrapper" src="./img/flask.svg" alt="" class="icon">
-              </div>
-            </div>
-            <p class="name">Lucas Marsha</p>
-            <p class="description">I get my inspiration from nature and objects around me. I have a passion to colours,
-              typography and skateboards.</p>
-          </article>
-          <article class="cards">
-            <div class="picture-wrapper">
-              <img src="./img/right-img.png" alt="" class="photo">
-              <div class="telegram-icon">
-                <img class="icon-wrapper" src="./img/telegram.svg" alt="" class="icon">
-              </div>
-            </div>
-            <p class="name">Bradley Hunter</p>
-            <p class="description">Based in Chicago. I love playing tennis and loud music.</p>
-          </article>
+          <ul class="wrapp">
+            <li class="block">
+              <article class="cards">
+                <div class="picture-wrapper icon-tv">
+                  <img src="./img/left-img.png" alt="" class="photo">
+                </div>
+                <p class="name">Bradley Hunter</p>
+                <p class="description">Based in Chicago. I love playing tennis and loud music.</p>
+              </article>
+            </li>
+            <li class="block">
+              <article class="cards">
+                <div class="picture-wrapper icon-cup">
+                  <img src="./img/left-middle-img.png" alt="" class="photo">
+                </div>
+                <p class="name">Heather Walker</p>
+                <p class="description">I'm a happy person that loves cats and climbing on mountains.</p>
+              </article>
+            </li>
+            <li class="block">
+              <article class="cards">
+                <div class="picture-wrapper icon-battle">
+                  <img src="./img/right-middle-img.png" alt="" class="photo">
+                </div>
+                <p class="name">Lucas Marsha</p>
+                <p class="description">I get my inspiration from nature and objects around me. I have a passion to colours,
+                  typography and skateboards.</p>
+              </article>
+            </li>
+            <li class="block">
+              <article class="cards">
+                <div class="picture-wrapper icon-telegram">
+                  <img src="./img/right-img.png" alt="" class="photo">
+                </div>
+                <p class="name">Bradley Hunter</p>
+                <p class="description">Based in Chicago. I love playing tennis and loud music.</p>
+              </article>
+            </li>
+          </ul>
         </div>
-      </article>
-    </section>
-    <footer class="down-button">
-      <button class="button" type="button" name="button">See other partners</button>
-    </footer>
+        <button class="button" type="button" name="button">See other partners</button>
+      </section>
+    </main>
   </body>
 </html>

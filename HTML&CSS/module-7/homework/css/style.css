@@ -2,7 +2,27 @@
     margin: 0;
     padding: 0;
    }
- #menu {
+   .page-header{
+width: 1110px;
+margin: 0 auto;
+}
+.clearfix::after {
+content: "";
+display: table;
+clear: both;
+}
+.navigation {
+
+    float: right;
+}
+.link{
+   margin-right: 20px;
+   float: left;
+ }
+ .link:last-child{
+  margin-right:  0;
+}
+ .menu {
    display: flex;
    justify-content: center;
    margin-top: 50px;
@@ -13,9 +33,13 @@
  }
 
 .logo {
-  display: flex;
-  justify-content: flex-start;
-  margin-right: 370px;
+  float: left;
+  padding-top: 36px;
+  font-size: 30px;
+  font-family: "Wisdom";
+  color: #fed136;
+  text-decoration: none;
+  list-style-type: none;
 }
 .link-logo  {
   text-decoration: none;
@@ -34,14 +58,11 @@
   list-style-type: none;
   color: #222222;
 }
-.about {
-  justify-content: center;
-  display: flex;
-}
+
 .link-about:hover {
   color: #fed136;
   transition-duration: 200ms;
-  
+
 }
 .link-service {
   font-size: 14px;
@@ -90,86 +111,76 @@
   transition-duration: 200ms;
   padding-bottom:  10px;
 }
+.header {
+  padding-bottom: 120px;
+}
+.section-title {
+    margin-bottom: 150px;
+}
+.section-title-form {
+    margin-bottom: 15px;
+}
 .string-top-small {
   text-align: center;
-  margin-top: 15px;
+
   font-size: 16px;
   font-family: "Droid Serif";
   font-style: italic;
   color: rgb(51, 51, 51);
-  margin-bottom: 70px;
 }
-.string-top {
+.string {
   text-align: center;
-  margin-top: 130px;
   font-size: 33px;
+  margin-bottom:  15px;
   font-family: 'Montserrat', sans-serif;
   color: rgb(51, 51, 51);
 }
 .content-top-center{
   display: flex;
   justify-content: center;
-  margin-bottom: 120px;
 }
-.top-left-block {
+.block {
   margin-right: 70px;
   width: 287px;
   text-align: center;
+
 }
-.top-middle-block {
-  margin-right: 70px;
-  width: 287px;
-  text-align: center;
+.block:last-child {
+  margin-right: 0px;
 }
-.top-right-block {
-  width: 287px;
-  text-align: center;
+.service::before{
+    content:'';
+    display:block;
+    width: 70px;
+    height: 70px;
+    background-position:  center;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: translate(100px , -80px);
+    border: 3px solid #fed136;
+    border-radius: 50%;
+
 }
-.top-left-svg {
-   width: 47px;
-   height: 47px;
-   margin-bottom: 20px;
+.icon-basket::before{
+    background-image: url(../img/basket.png);
 }
-.top-middle-svg {20  width: 80px;
-   height: 47px;
-   margin-bottom: 20px;
+
+.icon-laptop::before{
+    background-image: url(../img/laptop.png);
 }
-.top-right-svg {
-   width: 80px;
-   height: 47px;
-   margin-bottom: 20px;
+
+.icon-locked::before{
+    background-image: url(../img/locked.png);
 }
-.top-left-name {
+
+.name-block {
   font-size: 14px;
   font-family: "Montserrat";
   color: rgb(51, 51, 51);
   margin-bottom: 20px;
 }
-.top-middle-name {
-  font-size: 14px;
-  font-family: "Montserrat";
-  color: rgb(51, 51, 51);
-  margin-bottom: 20px;
-}
-.top-right-name {
-  font-size: 14px;
-  font-family: "Montserrat";
-  color: rgb(51, 51, 51);
-  margin-bottom: 20px;
-}
-.top-left-description {
-  font-size: 15px;
-  font-family: "Roboto";
-  color: rgb(153, 153, 153);
-  line-height: 1.6;
-}
-.top-middle-description {
-  font-size: 15px;
-  font-family: "Roboto";
-  color: rgb(153, 153, 153);
-  line-height: 1.6;
-}
-.top-right-description {
+
+.description-block {
   font-size: 15px;
   font-family: "Roboto";
   color: rgb(153, 153, 153);
@@ -178,12 +189,9 @@
 
 
 
-.string-down {
-  text-align: center;
-  font-size: 33px;
-  font-family: 'Montserrat', sans-serif;
+
+.color-white {
   color: #ffffff;
-  margin-bottom: 15px;
 }
 .string-down-small {
   display: flex;
@@ -201,16 +209,14 @@
    padding-bottom:21px;
 }
 
-.contact {
+
+.contact-form {
   display: flex;
   justify-content: center;
 }
-.contact-form {
-  display: flex;
-}
 .form {
   margin-right: 30px;
-  width: 460px;
+  
 }
 .name {
   height: 15px;
@@ -257,18 +263,24 @@
   font-family: "Montserrat";
   color: rgb(187, 187, 187);
 }
+.flex {
+  display: flex;
+}
+.form-with {
+  width: 500px;
+}
 input:valid {
-  background:  #b3ffb3;
+  outline: 2px solid #b3ffb3;
 }
 
 input:invalid {
-  background:  #ff1a1a;
+  outline: 2px solid #ff1a1a;
 }
 textarea:valid {
-  background:  #b3ffb3;
+  outline: 2px solid #b3ffb3;
 }
 textarea:invalid {
-  background:  #ff1a1a;
+  outline: 2px solid #ff1a1a;
 }
 .button {
   display: flex;
@@ -276,6 +288,8 @@ textarea:invalid {
   margin-bottom: 50px;
 }
 .button-form {
+  display: block;
+  margin: 0 auto;
   cursor: pointer;
   height: 63px;
   width: 246px;
