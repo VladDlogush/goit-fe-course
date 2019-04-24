@@ -9,16 +9,12 @@ while (attemptsLeft) {
         alert ('Добро пожаловать!');
         break;
     }
-    else if (inputPasswords === null) {
-        console.log('Отмена');
-        break;
-    }
-    else{
+    if (inputPasswords === null) break;
         attemptsLeft --;
-        if(attemptsLeft === 0){
+        if(!attemptsLeft){
            alert ('У вас закончились попытки, аккаунт заблокирован!');
            break;
         }
         alert (`Неверный пароль, у вас осталось ${attemptsLeft} попыток`);
-    }
+
 }
