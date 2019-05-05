@@ -6,9 +6,10 @@ let total = 0;
 
 do {
   input = prompt('Введите число: ');
-  if(input !== null && input !== "" && !Number.isNaN(Number(input)) ){
+  if(input === null) break;
+  if(input !== "" && !Number.isNaN(Number(input)) ){
     numbers.push(input);
-  }else if(Number.isNaN(Number(input))){
+  }else{
       alert('Было введено не число, попробуйте еще раз');
   }
 } while (input !== null);
