@@ -9,10 +9,10 @@ const Priority = {
 const notepad = {
   notes: [],
   getNotes() { // Принимает: ничего
-     return notepad.notes; // Возвращает: все заметки, значение свойства notes
+     return this.notes; // Возвращает: все заметки, значение свойства notes
   },
   findNoteById(id) { // Принимает: идентификатор заметки
-     for (let note of notepad.notes) { // Ищет заметку в массиве notes
+     for (let note of this.notes) { // Ищет заметку в массиве notes
        if (note.id === id) {
           return note;
           // Возвращает: заметку с совпавшим полем id или undefined если ничего не найдено
@@ -20,29 +20,29 @@ const notepad = {
      }
   },
   saveNote(note) { //Принимает: объект заметки
-     const addsNotesInArrNotes = notepad.notes.push(note); // Сохраняет заметку в массив notes
+     const addsNotesInArrNotes = this.notes.push(note); // Сохраняет заметку в массив notes
      return addsNotesInArrNotes; // Возвращает: сохраненную заметку
   },
   deleteNote(id) { //  Принимает: идентификатор заметки
-       if (notepad.findNoteById(id)) {
-        notepad.notes.splice(notepad.notes.indexOf(notepad.findNoteById(id)), 1);
+       if (this.findNoteById(id)) {
+        this.notes.splice(this.notes.indexOf(this.findNoteById(id)), 1);
         // Удаляет заметку по идентификатору из массива notes
        }
-       // return notepad.notes;
+       // return this.notes;
        // Возвращает: ничего
   },
   updateNoteContent(id, updatedContent) {
     // Принимает: идентификатор заметки и объект, полями которого надо обновить заметку
     // updatedContent - объект с полями вида {имя: значение, имя: значение}
 
-    if (notepad.findNoteById(id)) {
+    if (this.findNoteById(id)) {
       //Обновляет контент заметки
-      const updateNote = notepad.notes[notepad.notes.indexOf(notepad.findNoteById(id))] = {...notepad.findNoteById(id), ...updatedContent};
+      const updateNote = this.notes[this.notes.indexOf(this.findNoteById(id))] = {...this.findNoteById(id), ...updatedContent};
       return updateNote; //Возвращает: обновленную заметку
     }
   },
   updateNotePriority(id, priority) { // Принимает: идентификатор заметки и ее новый приоритет
-    for (let note of notepad.notes) {
+    for (let note of this.notes) {
       if (note.id === id) {
         // Обновляет приоритет заметки
         note.priority = priority;
@@ -54,7 +54,7 @@ const notepad = {
     const newArr = [];
     // Фильтрует массив заметок по подстроке query.
 
-    for (let note of notepad.notes) {
+    for (let note of this.notes) {
       const title = note.title.toLowerCase();
       const body = note.body.toLowerCase();
 
@@ -70,7 +70,7 @@ const notepad = {
     const newArr = [];
 
     // Если значение priority совпадает с приоритетом заметки - она подходит
-    for (let note of notepad.notes) {
+    for (let note of this.notes) {
       if (priority === note.priority) {
         newArr.push(note);
       }
