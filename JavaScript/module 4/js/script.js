@@ -34,32 +34,32 @@ const notepad = {
   updateNoteContent(id, updatedContent) {
     // Принимает: идентификатор заметки и объект, полями которого надо обновить заметку
     // updatedContent - объект с полями вида {имя: значение, имя: значение}
+    const note = this.findNoteById(id);
 
-    if (this.findNoteById(id)) {
-      //Обновляет контент заметки
-      const updateNote = this.notes[this.notes.indexOf(this.findNoteById(id))] = {...this.findNoteById(id), ...updatedContent};
-      return updateNote; //Возвращает: обновленную заметку
-    }
+    if (!note) return;
+    //Обновляет контент заметки
+    const updateNote = this.notes[this.notes.indexOf(this.findNoteById(id))] = {...this.findNoteById(id), ...updatedContent};
+    return updateNote; //Возвращает: обновленную заметку
   },
   updateNotePriority(id, priority) { // Принимает: идентификатор заметки и ее новый приоритет
-    for (let note of this.notes) {
-      if (note.id === id) {
-        // Обновляет приоритет заметки
-        note.priority = priority;
-        return note; // Возвращает: обновленную заметку
-      }
-    }
+    const note = this.findNoteById(id);
+
+    if (!note) return;
+    // Обновляет приоритет заметки
+    note.priority = priority;
+    return note; // Возвращает: обновленную заметку
   },
   filterNotesByQuery(query) { // Принимает: подстроку для поиска в title и body заметки
     const newArr = [];
     // Фильтрует массив заметок по подстроке query.
 
     for (let note of this.notes) {
-      const title = note.title.toLowerCase();
-      const body = note.body.toLowerCase();
+      const {title, body} = note;
+      const noteContent = `${title} ${body}`
+      const hasQuery = noteContent.toLowerCase();
 
       // Если значение query есть в заголовке или теле заметки - она подходит
-      if (title.includes(query) || body.includes(query)) {
+      if (hasQuery.includes(query) ) {
         newArr.push(note);
         return newArr; // Возвращает: новый массив заметок, контент которых содержит подстроку
       }
