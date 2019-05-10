@@ -72,7 +72,7 @@ const Notepad = function Notepad(notes = []) {
       }
     }
     return newArr; // Возвращает: новый массив заметок с подходящим приоритетом
-  }
+   }
 };
 
 Notepad.Priority = {
