@@ -72,7 +72,7 @@ class Notepad {
       }
     }
     return newArr; // Возвращает: новый массив заметок с подходящим приоритетом
-   }
+  }
    static Priority = {
       LOW: 0,
       NORMAL: 1,
