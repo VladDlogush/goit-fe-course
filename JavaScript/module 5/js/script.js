@@ -16,8 +16,8 @@ const Notepad = function Notepad(notes = []) {
      }
   },
   this.saveNote = function saveNote(note) { //Принимает: объект заметки
-     const addsNotesInArrNotes = this.notes.push(note); // Сохраняет заметку в массив notes
-     return addsNotesInArrNotes; // Возвращает: сохраненную заметку
+     this.notes.push(note); // Сохраняет заметку в массив notes
+     return note; // Возвращает: сохраненную заметку
   },
   this.deleteNote = function deleteNote(id) { //  Принимает: идентификатор заметки
        if (this.findNoteById(id)) {
@@ -34,7 +34,7 @@ const Notepad = function Notepad(notes = []) {
 
     if (!note) return;
     //Обновляет контент заметки
-    const updateNote = this.notes[this.notes.indexOf(this.findNoteById(id))] = {...this.findNoteById(id), ...updatedContent};
+    const updateNote = Object.assign(note, updatedContent);
     return updateNote; //Возвращает: обновленную заметку
   },
   this.updateNotePriority = function updateNotePriority(id, priority) { // Принимает: идентификатор заметки и ее новый приоритет

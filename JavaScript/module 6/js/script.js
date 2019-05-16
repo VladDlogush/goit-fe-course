@@ -16,8 +16,8 @@ class Notepad {
      }
   }
   saveNote(note) { //Принимает: объект заметки
-     const addsNotesInArrNotes = this._notes.push(note); // Сохраняет заметку в массив _notes
-     return addsNotesInArrNotes; // Возвращает: сохраненную заметку
+     this._notes.push(note); // Сохраняет заметку в массив _notes
+     return note; // Возвращает: сохраненную заметку
   }
   deleteNote(id) { //  Принимает: идентификатор заметки
        if (this.findNoteById(id)) {
@@ -34,7 +34,7 @@ class Notepad {
 
       if (!note) return;
       //Обновляет контент заметки
-      const updateNote = this._notes[this._notes.indexOf(this.findNoteById(id))] = {...this.findNoteById(id), ...updatedContent};
+      const updateNote = Object.assign(note, updatedContent);
       return updateNote; //Возвращает: обновленную заметку
   }
   updateNotePriority(id, priority) { // Принимает: идентификатор заметки и ее новый приоритет
