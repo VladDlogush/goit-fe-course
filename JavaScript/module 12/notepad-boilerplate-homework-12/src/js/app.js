@@ -3,7 +3,6 @@ import { Notyf } from 'notyf';
 import {PRIORITY_TYPES, ICON_TYPES, NOTE_ACTIONS} from './utils/constants';
 import initialNotes from '../assets/notes.json';
 import Notepad from './utils/notepad-model';
-import {getRefs, renderNoteList, addItemToList} from './utils/view.js';
 import noteTemplate from '../templates/note.hbs';
 
 const localStorageNotes = localStorage.getItem('notes') ?
